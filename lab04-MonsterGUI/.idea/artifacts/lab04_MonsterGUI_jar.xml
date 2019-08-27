@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="lab04-MonsterGUI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/lab04_MonsterGUI_jar</output-path>
+    <root id="archive" name="lab04-MonsterGUI.jar">
+      <element id="module-output" name="lab04-MonsterGUI" />
+    </root>
+  </artifact>
+</component>

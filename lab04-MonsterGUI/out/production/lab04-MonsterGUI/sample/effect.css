@@ -1,0 +1,55 @@
+#atk1{
+    -fx-background-color: #F77627;
+} #atk1:hover{
+    -fx-background-color: #B4571D;
+} #atk1:pressing{
+    -fx-padding: 10 20 10 20;
+}
+
+#atk2{
+    -fx-background-color: #F77627;
+} #atk2:hover{
+    -fx-background-color: #B4571D;
+}
+
+#heal1{
+    -fx-background-color: #5EDD2B;
+} #heal1:hover{
+    -fx-background-color: #459923;
+}
+
+#heal2{
+    -fx-background-color: #5EDD2B;
+} #heal2:hover{
+    -fx-background-color: #459923;
+}
+
+#can1{
+    -fx-background-color: #FF5D5D;
+} #can1:hover{
+    -fx-background-color: #B04444;
+}
+
+#can2{
+    -fx-background-color: #FF5D5D;
+} #can2:hover{
+    -fx-background-color: #B04444;
+}
+
+#sub1{
+    -fx-background-color: #5EDD2B;
+} #sub1:hover{
+    -fx-background-color: #459923;
+}
+
+#sub2{
+    -fx-background-color: #5EDD2B;
+} #sub2:hover{
+    -fx-background-color: #459923;
+}
+
+#go {
+    -fx-background-color: #EBFF5C;
+} #go:hover{
+    -fx-background-color: #BACA47;
+}

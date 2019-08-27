@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="350.0" style="-fx-background-color: #B8E1EC;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="38.0" layoutY="8.0" prefHeight="35.0" prefWidth="160.0" text="TodoList_" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="23.0" />
+         </font>
+      </Label>
+      <ListView fx:id="showList" layoutX="10.0" layoutY="46.0" prefHeight="320.0" prefWidth="330.0" style="-fx-border-color: #000000;" />
+      <Label layoutX="10.0" layoutY="375.0" text="Date :">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Label>
+      <DatePicker fx:id="datePicker" editable="false" layoutX="10.0" layoutY="395.0" prefHeight="0.0" prefWidth="160.0" promptText="DD/MM/YYYY" style="-fx-border-color: #000000;" />
+      <Label layoutX="180.0" layoutY="375.0" text="Time :">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Label>
+      <TextField fx:id="timeText" layoutX="180.0" layoutY="395.0" prefHeight="0.0" prefWidth="160.0" promptText="e.g. 12:00" style="-fx-border-color: #000000;" />
+      <Label layoutX="10.0" layoutY="430.0" text="Title :">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Label>
+      <TextField fx:id="titleText" layoutX="10.0" layoutY="450.0" prefHeight="0.0" prefWidth="193.0" promptText="-Optional" style="-fx-border-color: #000000;" />
+      <Label layoutX="10.0" layoutY="485.0" text="Description :">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Label>
+      <TextArea fx:id="desText" layoutX="10.0" layoutY="505.0" prefHeight="81.0" prefWidth="330.0" promptText="-Optional" style="-fx-border-color: #000000;" wrapText="true" />
+      <Button fx:id="addBtn" layoutX="266.0" layoutY="591.0" mnemonicParsing="false" onAction="#handleAddBtn" style="-fx-border-color: #ffffff; -fx-background-color: #000000;" text="AddList" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Button>
+      <Label layoutX="10.0" layoutY="608.0" text="patiphat.kh@ku.th" textFill="#979797" />
+      <ImageView fitHeight="59.0" fitWidth="33.0" layoutX="153.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/illustration-pen-icon_53876-5590.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="127.0" layoutX="210.0" layoutY="420.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/business-woman-with-laptop-in-office-woman-at-vector-22835230.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="44.0" layoutX="-2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/istockphoto-935062576-612x612.png" />
+         </image></ImageView>
+      <ImageView fitHeight="189.0" fitWidth="178.0" layoutX="87.0" layoutY="111.0" opacity="0.15" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/write-note-icon-vector-21023638.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="74.0" layoutX="273.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/stationery-in-brown-cup-icon-isometric-3d-style-vector-10289230.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

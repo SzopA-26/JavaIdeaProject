@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="400.0" maxWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BattleController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="85.0" layoutX="257.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/vs.png" />
+         </image>
+         <effect>
+            <Glow level="0.5" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="m1Image" fitHeight="100.0" fitWidth="247.0" layoutX="57.0" layoutY="117.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/m1.png" />
+         </image></ImageView>
+      <ImageView fx:id="m2Image" fitHeight="100.0" fitWidth="247.0" layoutX="299.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/m2.png" />
+         </image>
+         <effect>
+            <ColorAdjust hue="-0.4" />
+         </effect></ImageView>
+      <Button id="heal1" fx:id="healBtn1" alignment="CENTER" contentDisplay="CENTER" layoutX="162.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleHealBtnOnAction" prefHeight="27.0" prefWidth="66.0" stylesheets="@effect.css">
+         <graphic>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Heal">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Text>
+         </graphic>
+         <effect>
+            <DropShadow color="#434343" offsetX="4.0" offsetY="4.0" />
+         </effect></Button>
+      <Button id="atk1" fx:id="atkBtn1" alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleAtkBtnOnAction" prefWidth="60.0" stylesheets="@effect.css">
+         <graphic>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Text>
+         </graphic>
+         <effect>
+            <DropShadow color="#434343" offsetX="4.0" offsetY="4.0" />
+         </effect></Button>
+      <ProgressBar fx:id="hpBar1" layoutX="41.0" layoutY="260.0" minHeight="15.0" prefHeight="0.0" prefWidth="200.0" progress="1.0">
+         <effect>
+            <Glow level="0.51" />
+         </effect></ProgressBar>
+      <ProgressBar fx:id="hpBar2" layoutX="361.0" layoutY="261.0" minHeight="15.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="0.0" prefWidth="200.0" progress="1.0">
+         <effect>
+            <Glow level="0.51" />
+         </effect></ProgressBar>
+      <Button id="atk2" fx:id="atkBtn2" alignment="CENTER" contentDisplay="CENTER" layoutX="375.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleAtkBtnOnAction" prefWidth="60.0" stylesheets="@effect.css">
+         <graphic>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attack">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Text>
+         </graphic>
+         <effect>
+            <DropShadow color="#434343" offsetX="4.0" offsetY="4.0" />
+         </effect></Button>
+      <Button id="heal2" fx:id="healBtn2" alignment="CENTER" contentDisplay="CENTER" layoutX="483.0" layoutY="296.0" maxWidth="66.0" mnemonicParsing="false" onAction="#handleHealBtnOnAction" prefHeight="27.0" prefWidth="66.0" stylesheets="@effect.css">
+         <graphic>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Heal">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Text>
+         </graphic>
+         <effect>
+            <DropShadow color="#434343" offsetX="4.0" offsetY="4.0" />
+         </effect></Button>
+      <Text fx:id="roundText" layoutX="200.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Round: 1" textAlignment="CENTER" wrappingWidth="200.00000149011612">
+         <font>
+            <Font name="Arial Black" size="27.0" />
+         </font>
+         <effect>
+            <Glow level="0.5" />
+         </effect>
+      </Text>
+      <Text fx:id="healTxt1" layoutX="43.0" layoutY="293.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please enter recovery hp:">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="healField1" alignment="CENTER" layoutX="77.0" layoutY="302.0" opacity="0.0" prefHeight="27.0" prefWidth="129.0" />
+      <Text fx:id="healTxt2" layoutX="363.0" layoutY="292.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please enter recovery hp:">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="healField2" alignment="CENTER" layoutX="397.0" layoutY="302.0" opacity="0.0" prefHeight="27.0" prefWidth="129.0" />
+      <Button id="sub1" fx:id="healSubmitBtn1" alignment="CENTER" contentDisplay="CENTER" layoutX="162.0" layoutY="339.0" mnemonicParsing="false" onAction="#handleHealSubmitBtnOnAction" stylesheets="@effect.css">
+         <graphic>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Submit">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Text>
+         </graphic>
+         <effect>
+            <DropShadow color="#434343" offsetX="4.0" offsetY="4.0" />
+         </effect></Button>
+      <Button id="sub2" fx:id="healSubmitBtn2" alignment="CENTER" contentDisplay="CENTER" layoutX="483.0" layoutY="339.0" mnemonicParsing="false" onAction="#handleHealSubmitBtnOnAction" stylesheets="@effect.css">
+         <graphic>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Submit">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Text>
+         </graphic>
+         <effect>
+            <DropShadow color="#434343" offsetX="4.0" offsetY="4.0" />
+         </effect></Button>
+      <Button id="can1" fx:id="cancelBtn1" layoutX="55.0" layoutY="338.0" mnemonicParsing="false" onAction="#handleCancelBtnOnAction" stylesheets="@effect.css">
+         <graphic>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cancel">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Text>
+         </graphic>
+         <effect>
+            <DropShadow color="#434343" offsetX="4.0" offsetY="4.0" />
+         </effect></Button>
+      <Button id="can2" fx:id="cancelBtn2" layoutX="375.0" layoutY="338.0" mnemonicParsing="false" onAction="#handleCancelBtnOnAction" stylesheets="@effect.css">
+         <graphic>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cancel">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Text>
+         </graphic>
+         <effect>
+            <DropShadow color="#434343" offsetX="4.0" offsetY="4.0" />
+         </effect></Button>
+      <Text fx:id="skipText1" layoutX="30.0" layoutY="105.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CAN'T USE SKILL 1 TURN !!">
+         <font>
+            <Font name="Avenir Black" size="13.0" />
+         </font>
+         <effect>
+            <Glow level="0.5" />
+         </effect>
+      </Text>
+      <Text fx:id="skipText2" layoutX="395.0" layoutY="105.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CAN'T USE SKILL 1 TURN !!">
+         <font>
+            <Font name="Avenir Black" size="13.0" />
+         </font>
+         <effect>
+            <Glow level="0.5" />
+         </effect>
+      </Text>
+      <Text fx:id="infoTxt1" layoutX="43.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ATK: 0   DEF: 0 " wrappingWidth="174.98000264167786">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+         <effect>
+            <Glow level="0.51" />
+         </effect>
+      </Text>
+      <Text fx:id="infoTxt2" layoutX="344.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ATK: 0   DEF: 0 " textAlignment="RIGHT" wrappingWidth="215.5126953125">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+         <effect>
+            <Glow level="0.51" />
+         </effect>
+      </Text>
+      <Text fx:id="nameTxt1" layoutX="111.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Monster" textAlignment="RIGHT" wrappingWidth="129.0000021457672">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+         <effect>
+            <Glow level="0.51" />
+         </effect>
+      </Text>
+      <Text fx:id="nameTxt2" layoutX="431.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Monster" textAlignment="RIGHT" wrappingWidth="129.0000021457672">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+         <effect>
+            <Glow level="0.51" />
+         </effect>
+      </Text>
+      <Text fx:id="hpText1" layoutX="42.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 100/100">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+         <effect>
+            <Glow level="0.51" />
+         </effect>
+      </Text>
+      <Text fx:id="hpText2" layoutX="362.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HP: 100/100">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+         <effect>
+            <Glow level="0.51" />
+         </effect>
+      </Text>
+      <ImageView fx:id="winnerGIF" fitHeight="75.0" fitWidth="166.0" layoutX="58.0" layoutY="25.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/win.gif" />
+         </image></ImageView>
+      <ImageView fx:id="effectHeal1" fitHeight="176.0" fitWidth="230.0" layoutX="5.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/heal2.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="effectHeal2" fitHeight="176.0" fitWidth="230.0" layoutX="365.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/heal2.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="atkImg1" fitHeight="38.0" fitWidth="42.0" layoutX="102.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/attack.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="atkImg2" fitHeight="38.0" fitWidth="42.0" layoutX="422.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/attack.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="healImg1" fitHeight="38.0" fitWidth="38.0" layoutX="210.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/healIcon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="healImg2" fitHeight="38.0" fitWidth="38.0" layoutX="531.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/healIcon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="king1" fitHeight="48.0" fitWidth="38.0" layoutX="64.0" layoutY="112.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" rotate="-33.7">
+         <image>
+            <Image url="@../images/king-crown-cartoon_18591-37864.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="king2" fitHeight="48.0" fitWidth="38.0" layoutX="501.0" layoutY="112.0" opacity="0.0" pickOnBounds="true" preserveRatio="true" rotate="33.7">
+         <image>
+            <Image url="@../images/king-crown-cartoon_18591-37864.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
