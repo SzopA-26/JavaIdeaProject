@@ -43,7 +43,7 @@ public class DentalClinic {
         }
 
         int timeQ = sc.nextInt();
-        for (int i=que.poll().getTime(); !que.isEmpty() && i<sumTime; ){
+        for (int i=0; !que.isEmpty() && i<sumTime; ){
             if (cusDq.contains(que.peek().getName()))
                 que.poll();
             else if (i<=timeQ)
