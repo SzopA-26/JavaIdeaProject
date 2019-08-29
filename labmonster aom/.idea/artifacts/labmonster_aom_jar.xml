@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="labmonster aom:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/labmonster_aom_jar</output-path>
-    <root id="archive" name="labmonster aom.jar">
-      <element id="module-output" name="labmonster aom" />
-    </root>
-  </artifact>
-</component>
