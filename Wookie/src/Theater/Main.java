@@ -12,7 +12,8 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("HomePage.fxml"));
         primaryStage.setTitle("Wookie Theater");
-        primaryStage.setScene(new Scene(root, 600, 600));
+        primaryStage.setScene(new Scene(root, 800, 450));
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 

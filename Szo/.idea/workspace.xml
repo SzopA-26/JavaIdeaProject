@@ -2,8 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9141676-27d4-4c0a-be6e-4cedff40966a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wookie/src/Theater/dec.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wookie/src/decImage/seat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/lab06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/src/MainProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/src/Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ELAB/src/Mail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Szo/DentalClinic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Szo/DentalClinic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DentalClinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DentalClinic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/ListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/ListPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/ListPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/ListPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/src/Theater/HomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/src/Theater/HomePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/src/Theater/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/src/Theater/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/src/Theater/ListPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/src/Theater/ListPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/src/Theater/ListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/src/Theater/ListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/src/Theater/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/src/Theater/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/BlueCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/out/production/lab05/BlueCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/FoodCenterCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/GreenCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/out/production/lab05/GreenCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/META-INF/lab05.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/MainProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/out/production/lab05/MainProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab05/src/GreenCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/src/GreenCard.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,14 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DentalClinic">
-    <configuration name="BoxOfBricks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BoxOfBricks" />
-      <module name="Szo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Program">
     <configuration name="DentalClinic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DentalClinic" />
       <module name="Szo" />
@@ -68,6 +93,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="Szo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SplitingLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SplitingLines" />
       <module name="Szo" />
@@ -75,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="labonetwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labonetwo" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="Szo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.DentalClinic" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.IncorrectSequence" />
         <item itemvalue="Application.SplitingLines" />
-        <item itemvalue="Application.BoxOfBricks" />
-        <item itemvalue="Application.labonetwo" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567005348762</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="debug DentalClinic Class">
+      <created>1567048983626</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567048983626</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,7 +157,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -126,6 +167,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add IncorrectSequence class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add IncorrectSequence class" />
+    <MESSAGE value="debug DentalClinic Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug DentalClinic Class" />
   </component>
 </project>

@@ -1,14 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8869d8cd-adf2-4e9b-a2c0-11739f69168b" name="Default Changelist" comment="" />
+    <list default="true" id="8869d8cd-adf2-4e9b-a2c0-11739f69168b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ELAB/src/AlphabetCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELAB/src/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELAB/src/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELAB/src/GuessingGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELAB/src/MiniFileSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELAB/src/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELAB/src/MonsterParty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELAB/src/MyParty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELAB/src/OMR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELAB/src/OMR2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELAB/src/Obstacle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELAB/src/PatternSquareObstacle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELAB/src/PositiveMixedFraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELAB/src/SquareObstacle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELAB/src/WordMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Szo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Szo/src/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wookie/src/Theater/dec.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wookie/src/decImage/seat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/lab06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/src/MainProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ELAB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/ELAB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ELAB/ELAB.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/out/production/ELAB/DentalClinic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/out/production/ELAB/GameCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/out/production/ELAB/Hangman.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ELAB/out/production/ELAB/Hangman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/out/production/ELAB/InternetCafeMemberCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/out/production/ELAB/InternetCafeMemberCardMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/out/production/ELAB/MasterMind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/out/production/ELAB/MemberCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ELAB/out/production/ELAB/MemberCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/out/production/ELAB/MemberCardMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/out/production/ELAB/MonsterBall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/out/production/ELAB/NumberGuessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/out/production/ELAB/Pointable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/out/production/ELAB/Stamp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/out/production/ELAB/WipeAllCouples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/src/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ELAB/src/Hangman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/src/InternetCafeMemberCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/src/InternetCafeMemberCardMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/src/Mail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/src/MailBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/src/MainProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/src/MasterMind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/src/MemberCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ELAB/src/MemberCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/src/MemberCardMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/src/MonsterBall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/src/NumberGuessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/src/Pointable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/src/Stamp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/DentalClinic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/out/production/Szo/DentalClinic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/src/DentalClinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/src/DentalClinic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/ListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/ListPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/ListPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/ListPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/src/Theater/HomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/src/Theater/HomePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/src/Theater/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/src/Theater/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/src/Theater/ListPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/src/Theater/ListPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/src/Theater/ListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/src/Theater/ListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/src/Theater/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/src/Theater/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab05/BlueCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab05/BlueCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab05/FoodCenterCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab05/GreenCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab05/GreenCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab05/META-INF/lab05.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab05/MainProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab05/MainProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GreenCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GreenCard.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1PmWWZzrrcrewCKEFt85KMtQs0A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -20,6 +111,20 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainProgram" />
+      <module name="lab05" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainProgram" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -33,5 +138,18 @@
       <updated>1566479784841</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

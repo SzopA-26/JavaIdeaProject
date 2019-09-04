@@ -1,34 +1,42 @@
 //elab-source:MemberCard.java
-public class MemberCard implements Pointable {
+
+public class MemberCard {
     private String name;
-    private int point;
-    private double score;
+    private int numberOfRent;
+    private Bike bike;
 
     public MemberCard(String name) {
         this.name = name;
-        this.point = 0;
-        this.score = 0;
+        this.numberOfRent = 0;
+        this.bike = null;
     }
 
-    @Override
-    public void addScore(double score) {
-        this.score += score;
-        this.point = (int)this.score/250;
+    public void rentBike(Bike bike) {
+        if (this.bike == null && bike.isAvailable()) {
+            this.bike = bike;
+            this.numberOfRent++;
+            bike.rent();
+        }
     }
 
-    @Override
-    public void usePoint(int point) {
-        if (point <= this.point)
-            this.point -= point;
+    public String viewBikeLicensePlate() {
+        if (bike == null)
+            return "";
+        else return bike.getLicensePlate();
     }
 
-    @Override
-    public int getPoint() {
-        return point;
+    public void returnBike() {
+        if (bike != null) {
+            this.bike.free();
+            this.bike = null;
+        }
     }
 
-    @Override
-    public String getInfo() {
-        return "MemberCard{name='" + name + "', totalPurchase=" + score + ", point=" + point + "}";
+    public String getName() {
+        return name;
+    }
+
+    public int getNumberOfRent() {
+        return numberOfRent;
     }
 }

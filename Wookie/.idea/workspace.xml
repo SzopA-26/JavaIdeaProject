@@ -1,87 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="c7f8ce85-8495-4d9b-a820-9e87616c7a7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Szo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Szo/src/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Theater/dec.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decImage/seat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/lab06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab06/src/MainProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB/src/Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ELAB/src/Mail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/DentalClinic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/out/production/Szo/DentalClinic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/src/DentalClinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/src/DentalClinic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/HomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WookieTheater/Theater/HomePage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WookieTheater/Theater/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/HomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WookieTheater/Theater/HomePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/ListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WookieTheater/Theater/ListPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/ListPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WookieTheater/Theater/ListPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WookieTheater/Theater/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Theater/HomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Theater/HomePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Theater/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Theater/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Theater/ListPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Theater/ListPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Theater/ListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Theater/ListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Theater/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Theater/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/BlueCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/out/production/lab05/BlueCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/FoodCenterCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/GreenCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/out/production/lab05/GreenCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/META-INF/lab05.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/MainProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/out/production/lab05/MainProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab05/src/GreenCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/src/GreenCard.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
-    <ui_properties converted="true" />
-    <breakpoint_rules converted="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="JavaFxApplication" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="FxmlFile" />
-      </list>
-    </option>
-  </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="false" />
-    </FindUsagesManager>
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectId" id="1PpYTgKmTGNmXt8zTFju7kaPTJq" />
-  <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
-  </component>
+  <component name="ProjectId" id="1Q5VagJH0kiVywBK8rN6MXjUBgb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="OverrideImplement.combined" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
@@ -97,97 +72,61 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
-    </configuration>
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Theater.Main" />
-      <module name="WookieTheater" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="Wookie" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Theater.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
-      <created>1359379246138</created>
+      <changelist id="c7f8ce85-8495-4d9b-a820-9e87616c7a7a" name="Default Changelist" comment="" />
+      <created>1567060508198</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1359379246138</updated>
-      <workItem from="1359379250712" duration="1302000" />
+      <updated>1567060508198</updated>
     </task>
+    <task id="LOCAL-00001" summary="change scene animation">
+      <created>1567153006551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567153006551</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1302000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="change scene animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="change scene animation" />
   </component>
 </project>

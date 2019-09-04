@@ -1,70 +1,66 @@
 //elab-source:Hangman.java
-//elab-mainclass:Hangman
-import java.util.Scanner;
 
-public class Hangman {
-    private String target;
+public class Hangman implements GuessingGame {
+    private String ans;
     private char[] guess;
-    private int life = 6;
-    private boolean correct = false;
+    private int life;
+    private boolean isWin;
+    private boolean isLose;
+    private boolean inputError;
 
-    public Hangman (String target) {
-        this.target = target;
-        this.guess = new char[target.length()];
-        for(int i=0;i<target.length();i++)
-            guess[i] = '-';
+    @Override
+    public void setAnswer(String ans) {
+        this.ans = ans.toLowerCase();
+        life = 6;
+        isWin = false;
+        isLose = false;
+        guess = new char[ans.length()];
+        for (int i=0;i<ans.length();i++)
+            guess[i] = '_';
+        inputError = false;
     }
 
-    public String toString() {
-        StringBuilder str = new StringBuilder();
-        str.append(life);
-        str.append(" ");
-        for (char a : guess) {
-            str.append(a);
-        }
-        return str.toString();
-
+    @Override
+    public void guess(String s) {
+        if (s.length() == 1) {
+            inputError = false;
+            boolean incorrect = true;
+            for (int i=0;i<ans.length();i++) {
+                if (ans.charAt(i) == s.charAt(0) && guess[i] == '_') {
+                    guess[i] = ans.charAt(i);
+                    incorrect = false;
+                }
+            } if (incorrect) life--;
+            if (life <= 0) isLose = true;
+            if (getGuess().equals(ans)) isWin = true;
+        } else inputError = true;
     }
 
-    public int getLife() {
-        return life;
+    @Override
+    public String getOutput() {
+        if (inputError)
+            return "One character only";
+        String out = "";
+        for (int i=0;i<guess.length;i++)
+            out += guess[i]+" ";
+        return out;
     }
 
-    public String getTarget() {
-        return target;
+    @Override
+    public boolean isWon() {
+        return isWin;
     }
 
-    public boolean isCorrect() {
-        return correct;
+    @Override
+    public boolean isLost() {
+        return isLose;
     }
 
-    public void addGuess (char g) {
-        boolean check = true;
-        for (int i=0;i<target.length();i++) {
-            if (target.charAt(i) == g) {
-                guess[i] = g;
-                check = false;
-                if (target.equals(toString().substring(2)))
-                    correct = true;
-            }
-        } if (check) {
-            life--;
-        }
+    private String getGuess() {
+        String g = "";
+        for (char i : guess)
+            g += i;
+        return g;
     }
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String target = sc.next();
-        Hangman hm = new Hangman(target);
-        System.out.println(hm.toString());
-        while (true) {
-            char g = sc.next().charAt(0);
-            hm.addGuess(g);
-            System.out.println(hm.toString());
-            if (hm.getLife() <= 0 || hm.isCorrect())
-                break;
-        } if (hm.isCorrect())
-            System.out.println("Congratulations, you win");
-        else System.out.println("You lose, the answer is " + hm.getTarget());
-    }
 }

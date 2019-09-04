@@ -4,14 +4,9 @@ public class DentalClinic {
     private String name;
     private int time;
 
-    public DentalClinic(String name, String time) {
-        StringBuilder strN = new StringBuilder();
-        for (int i=0; i<name.length() ;i++)
-            if (name.charAt(i)!='+')
-                strN.append(name.charAt(i));
-        String strT[] = time.split("time=");
-        this.name = strN.toString();
-        this.time = Integer.parseInt(strT[1]);
+    public DentalClinic(String name, int time) {
+        this.name = name.substring(1);
+        this.time = time;
     }
 
     public String getName() {
@@ -29,17 +24,15 @@ public class DentalClinic {
         Queue<DentalClinic> que = new LinkedList<>();
         for (int i=0;i<nq;i++) {
             String cus = sc.next();
-            String cusTime = sc.next();
-            DentalClinic customer = new DentalClinic(cus,cusTime);
-            que.add(customer);
-            sumTime += customer.getTime();
+            int cusTime = Integer.parseInt(sc.next().substring(5));
+            que.add(new DentalClinic(cus,cusTime));
+            sumTime += cusTime;
         }
 
         int nDq = sc.nextInt();
         List<String> cusDq = new LinkedList<>();
         for (int i=0; i<nDq; i++) {
-            String[] dQ = sc.next().split("-");
-            cusDq.add(dQ[1]);
+            cusDq.add(sc.next().substring(1));
         }
 
         int timeQ = sc.nextInt();
