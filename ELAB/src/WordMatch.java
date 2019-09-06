@@ -26,6 +26,7 @@ public class WordMatch implements GuessingGame{
     @Override
     public String getOutput() {
         if (match < 0) return "Length not match";
+        if (win) return "";
         return "Match " + match;
     }
 

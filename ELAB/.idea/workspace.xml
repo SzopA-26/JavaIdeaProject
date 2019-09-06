@@ -2,89 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d9a4f9-38df-48fd-9180-c34d455b690d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AlphabetCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuessingGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MiniFileSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MonsterParty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyParty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OMR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OMR2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Obstacle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PatternSquareObstacle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PositiveMixedFraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SquareObstacle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WordMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Szo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Szo/src/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Wookie/src/Theater/dec.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Wookie/src/decImage/seat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab06/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab06/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab06/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab06/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab06/lab06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab06/src/MainProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ELAB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ELAB.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ELAB/DentalClinic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ELAB/GameCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ELAB/AlphabetCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ELAB/AlphabetCounter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ELAB/Hangman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ELAB/Hangman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ELAB/InternetCafeMemberCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ELAB/InternetCafeMemberCardMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ELAB/MasterMind.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ELAB/MemberCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ELAB/MemberCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ELAB/MemberCardMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ELAB/MonsterBall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ELAB/NumberGuessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ELAB/Pointable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ELAB/Stamp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ELAB/WipeAllCouples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hangman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InternetCafeMemberCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InternetCafeMemberCardMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MailBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainProgram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MasterMind.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberCardMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MonsterBall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumberGuessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pointable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stamp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Szo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/DentalClinic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/out/production/Szo/DentalClinic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Szo/src/DentalClinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/src/DentalClinic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/ListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/ListPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/ListPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/ListPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/src/Theater/HomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/src/Theater/HomePage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/src/Theater/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/src/Theater/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/src/Theater/ListPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/src/Theater/ListPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/src/Theater/ListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/src/Theater/ListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Wookie/src/Theater/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/src/Theater/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/BlueCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/out/production/lab05/BlueCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/FoodCenterCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/GreenCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/out/production/lab05/GreenCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/META-INF/lab05.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/MainProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/out/production/lab05/MainProgram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/src/GreenCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/src/GreenCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ELAB/Obstacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ELAB/Obstacle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ELAB/PatternSquareObstacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ELAB/PatternSquareObstacle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ELAB/SquareObstacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ELAB/SquareObstacle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlphabetCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AlphabetCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WordMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordMatch.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PatternSquareObstacle">
+  <component name="RunManager" selected="Application.AlphabetCounter">
     <configuration name="AlphabetCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AlphabetCounter" />
       <module name="ELAB" />
@@ -163,10 +88,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AlphabetCounter" />
         <item itemvalue="Application.PatternSquareObstacle" />
         <item itemvalue="Application.MyParty" />
         <item itemvalue="Application.MainProgram" />
-        <item itemvalue="Application.AlphabetCounter" />
         <item itemvalue="Application.MemberCardTest" />
       </list>
     </recent_temporary>

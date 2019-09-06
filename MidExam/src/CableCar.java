@@ -44,32 +44,32 @@ public class CableCar {
         }System.out.println(s);
     }
 
-//    public static void main(String[] args) {
-//        CableCar cableCar;
-//        Passenger jumbo, nook, tonmai;
-//
-//        cableCar = new CableCar(3, 100);
-//        System.out.println(cableCar.getWeight());
-//        System.out.println(cableCar.getCapacity() + "\n");
-//
-//        jumbo = new Passenger("Jumbo",45.5);
-//        nook = new Passenger("Nook",54.4);
-//        tonmai = new Passenger("Tonmai",78);
-//
-//        cableCar.pickUp(jumbo);
-//        System.out.println(cableCar.getWeight());
-//        System.out.println(cableCar.getCapacity() + "\n");
-//
-//        cableCar.pickUp(nook);
-//        System.out.println(cableCar.getWeight());
-//        System.out.println(cableCar.getCapacity() + "\n");
-//
-//        cableCar.pickUp(tonmai);
-//        System.out.println(cableCar.getWeight());
-//        System.out.println(cableCar.getCapacity() + "\n");
-//
-//        cableCar.drive();
-//        System.out.println(cableCar.getWeight());
-//        System.out.println(cableCar.capacity);
-//    }
+    public static void main(String[] args) {
+        CableCar cableCar;
+        Passenger jumbo, nook, tonmai;
+
+        cableCar = new CableCar(3, 100);
+        System.out.println(cableCar.getWeight());
+        System.out.println(cableCar.getCapacity() + "\n");
+
+        jumbo = new Passenger("Jumbo",45.5);
+        nook = new Passenger("Nook",54.4);
+        tonmai = new Passenger("Tonmai",78);
+
+        cableCar.pickUp(jumbo);
+        System.out.println(cableCar.getWeight());
+        System.out.println(cableCar.getCapacity() + "\n");
+
+        cableCar.pickUp(nook);
+        System.out.println(cableCar.getWeight());
+        System.out.println(cableCar.getCapacity() + "\n");
+
+        cableCar.pickUp(tonmai);
+        System.out.println(cableCar.getWeight());
+        System.out.println(cableCar.getCapacity() + "\n");
+
+        cableCar.drive();
+        System.out.println(cableCar.getWeight());
+        System.out.println(cableCar.capacity);
+    }
 }
