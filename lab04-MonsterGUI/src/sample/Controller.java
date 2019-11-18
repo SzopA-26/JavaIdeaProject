@@ -6,6 +6,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -23,6 +25,15 @@ public class Controller {
         BattleController battleController = loader.getController();
         battleController.setMonster1(new Monster(m1Name.getText(), Integer.parseInt( m1Hp.getText()), Integer.parseInt(m1Atk.getText()), Integer.parseInt(m1Def.getText()) , m1Image.getText()));
         battleController.setMonster2(new Monster(m2Name.getText(), Integer.parseInt( m2Hp.getText()), Integer.parseInt(m2Atk.getText()), Integer.parseInt(m2Def.getText()) , m2Image.getText()));
+        stage.show();
+    }
+
+    @FXML public void powerImage(MouseEvent event) throws IOException {
+        ImageView b = (ImageView) event.getSource();
+        Stage stage = (Stage) b.getScene().getWindow();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("battle.fxml"));
+        stage.setScene(new Scene(loader.load(),600, 400));
+        stage.setResizable(false);
         stage.show();
     }
 

@@ -18,6 +18,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
 import javafx.util.Duration;
 
 import java.io.IOException;
@@ -35,6 +36,7 @@ public class ListPage {
         Platform.runLater(new Runnable() {
             @Override
             public void run() {
+                ((Stage) backBtn.getScene().getWindow()).setTitle("bs");
                 homePage = new HomePage();
                 setNormalSeat();
             }
@@ -42,18 +44,35 @@ public class ListPage {
     }
 
     @FXML public void handleBackBtnOnAction(ActionEvent event) throws IOException {
-//        homePage.btnChangeScene(event,"HomePage.fxml", homePage.width, homePage.height);
-        Parent root = FXMLLoader.load(getClass().getResource("HomePage.fxml"));
+//        Parent root = FXMLLoader.load(getClass().getResource("HomePage.fxml"));
+//        Scene scene = paneList.getScene();
+//        root.translateXProperty().set(scene.getWidth());
+//        root.setTranslateX(-1*root.getTranslateX());
+//        stackPane.getChildren().add(root);
+//
+//        Timeline timeline = new Timeline();
+//        KeyValue kv = new KeyValue(root.translateXProperty(),0, Interpolator.EASE_OUT);
+//        KeyFrame kf = new KeyFrame(Duration.seconds(2), kv);
+//        timeline.getKeyFrames().add(kf);
+//        timeline.setOnFinished(t-> {
+//            stackPane.getChildren().remove(paneList);
+//        });
+//        timeline.play();
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage.fxml"));
+        Parent root = loader.load();
         Scene scene = paneList.getScene();
-        root.translateXProperty().set(scene.getWidth());
-        root.setTranslateX(-1*root.getTranslateX());
+
+        paneList.translateXProperty().set(0);
+        stackPane.getChildren().clear();
         stackPane.getChildren().add(root);
+        stackPane.getChildren().add(paneList);
 
         Timeline timeline = new Timeline();
-        KeyValue kv = new KeyValue(root.translateXProperty(),0, Interpolator.EASE_OUT);
+        KeyValue kv = new KeyValue(paneList.translateXProperty(), scene.getWidth(), Interpolator.EASE_IN);
         KeyFrame kf = new KeyFrame(Duration.seconds(0.7), kv);
         timeline.getKeyFrames().add(kf);
-        timeline.setOnFinished(t-> {
+        timeline.setOnFinished(t -> {
             stackPane.getChildren().remove(paneList);
         });
         timeline.play();

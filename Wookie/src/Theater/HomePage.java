@@ -34,6 +34,7 @@ public class HomePage extends Button {
         Platform.runLater(new Runnable() {
             @Override
             public void run() {
+                ((Stage) nextBtn.getScene().getWindow()).setTitle("as");
                 listPage = new ListPage();
                 Button test = new Button("TEST");
                 EventHandler<ActionEvent> goToListPage = event -> {
@@ -66,12 +67,17 @@ public class HomePage extends Button {
         FXMLLoader loader = new FXMLLoader(getClass().getResource(fxml));
         s.setScene(new Scene(loader.load(), 800, 450));
         s.setResizable(false);
+
         s.show();
     }
 
     public void imgChangeScene(MouseEvent event, String fxml) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource(fxml));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource(fxml));
+        Parent root = loader.load();
+//        ShowTime showTime = loader.getController();
         Scene scene = paneHome.getScene();
+//        showTime.setMovie(movies[finalI]);
+
         root.translateXProperty().set(scene.getWidth());
         stackPane.getChildren().add(root);
 
@@ -83,7 +89,6 @@ public class HomePage extends Button {
             stackPane.getChildren().remove(paneHome);
         });
         timeline.play();
-
     }
 
 

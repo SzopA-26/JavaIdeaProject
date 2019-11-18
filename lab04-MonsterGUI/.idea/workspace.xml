@@ -6,15 +6,41 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd1df371-2485-4a4e-a392-e2d06dbecdc1" name="Default Changelist" comment="" />
+    <list default="true" id="bd1df371-2485-4a4e-a392-e2d06dbecdc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/B$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/BoxOfBricks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/CountingSheep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/out/production/Szo/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/Wookie/Theater/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Wookie/out/production/Wookie/Theater/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/ListPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/ListPage$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/ListPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wookie/out/production/WookieTheater/Theater/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Pgmzl1yGIdd9vv2DwYcdn2Zw8n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
@@ -65,5 +91,16 @@
       <updated>1566304377627</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

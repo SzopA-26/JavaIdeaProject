@@ -2,47 +2,122 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7f8ce85-8495-4d9b-a820-9e87616c7a7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Szo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Szo/src/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Theater/dec.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decImage/seat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab06/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab06/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab06/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab06/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab06/lab06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab06/src/MainProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ELAB/src/Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ELAB/src/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HWInterface/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HWInterface/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HWInterface/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HWInterface/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HWInterface/HWInterface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HWInterface/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HWInterface/src/AnimalComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HWInterface/src/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HWInterface/src/BankAccountComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HWInterface/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HWInterface/src/MainProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HWInterface/src/Measurable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HWInterface/src/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HWInterface/src/StatUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium_TransitionScene/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium_TransitionScene/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium_TransitionScene/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium_TransitionScene/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium_TransitionScene/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium_TransitionScene/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium_TransitionScene/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium_TransitionScene/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium_TransitionScene/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium_TransitionScene/Medium_TransitionScene.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium_TransitionScene/src/SlideTransitionScene/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium_TransitionScene/src/SlideTransitionScene/Page1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium_TransitionScene/src/SlideTransitionScene/Page1_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium_TransitionScene/src/SlideTransitionScene/Page2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Medium_TransitionScene/src/SlideTransitionScene/Page2_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Szo/out/production/Szo/TreasureInTheMaze.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Szo/src/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Szo/src/SocialNetWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Szo/src/Travel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Szo/src/TreasureInTheMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Szo/src/TreasureInTheMaze2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Szo/src/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestWriteFile/TestWriteFile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab04-MonsterGUI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab07/lab07.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab07/src/CommandSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab07/src/CommandSystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab07/src/MainProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab07/src/MyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab07/src/MyFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/lab08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/src/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/src/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/src/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/src/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/src/GameCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/src/Gun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/src/MainProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/src/Network.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/src/NetworkInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/src/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/src/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/src/Vegetable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/src/VolumeChangeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/src/Washable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab08/src/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09/JavaFxApplication.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09/lab09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/.idea/artifacts/lab10_HW_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/Dictionary/save" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/lab10-HW.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/src/Dictionary/DicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/src/Dictionary/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/src/Dictionary/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/src/Dictionary/MyFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/src/Dictionary/Vocabulary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/src/Dictionary/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10-HW/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/lab10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ELAB-PreMid" beforeDir="false" afterPath="$PROJECT_DIR$/../ELAB-PreMid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Szo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/DentalClinic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/out/production/Szo/DentalClinic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Szo/src/DentalClinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/src/DentalClinic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/B$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/BoxOfBricks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/CountingSheep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/out/production/Szo/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/out/production/Szo/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Szo/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Szo/src/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/HomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WookieTheater/Theater/HomePage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WookieTheater/Theater/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/HomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WookieTheater/Theater/HomePage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/ListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WookieTheater/Theater/ListPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/ListPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WookieTheater/Theater/ListPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WookieTheater/Theater/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Theater/HomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Theater/HomePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wookie/Theater/HomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wookie/Theater/HomePage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wookie/Theater/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wookie/Theater/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wookie/Theater/ListPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wookie/Theater/ListPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wookie/Theater/ListPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wookie/Theater/ListPage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wookie/Theater/ListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wookie/Theater/ListPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/HomePage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/ListPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/ListPage$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/ListPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WookieTheater/Theater/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Theater/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Theater/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Theater/ListPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Theater/ListPage.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Theater/ListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Theater/ListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Theater/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Theater/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/BlueCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/out/production/lab05/BlueCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/FoodCenterCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/GreenCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/out/production/lab05/GreenCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/META-INF/lab05.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/out/production/lab05/MainProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/out/production/lab05/MainProgram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab05/src/GreenCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05/src/GreenCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab04-MonsterGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab04-MonsterGUI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab04-MonsterGUI/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab04-MonsterGUI/src/sample/Controller.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
